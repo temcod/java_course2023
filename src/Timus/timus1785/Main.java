@@ -1,7 +1,6 @@
 package Timus.timus1785;
 
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -20,7 +19,7 @@ public class Main {
         } else if (a >= 50 && a <= 99) {
             System.out.println("horde");
         } else if (a >= 100 && a <= 249) {
-            System.out.println("thorn");
+            System.out.println("throng");
         } else if (a >= 250 && a <= 499) {
             System.out.println("swarm");
         } else if (a >= 500 && a <= 999) {
@@ -28,8 +27,6 @@ public class Main {
         } else if (a >= 1000) {
             System.out.println("legion");
         }
-
         System.out.flush();
-
     }
 }
