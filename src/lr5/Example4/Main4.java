@@ -14,7 +14,6 @@ public class Main4 {
         int lenght = (int) (Math.log10(int1) + 1);
         double result = (double) ch1 + (double) int1*1/Math.pow(10, lenght);
         System.out.println("result1 = "+result+"; ch = "+(double)ch1+ "; int = "+ lenght);
-
     }
     // конструктор с 1 аргументом
     public Main4(double b){

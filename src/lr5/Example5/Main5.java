@@ -13,7 +13,6 @@ package lr5.Example5;
 import lr5.Example4.Main4;
 
 public class Main5 {
-
     private int number;
     //Значение полю присваивается с помощью открытого метода.
     public void Set(int n) {
