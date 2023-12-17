@@ -1,6 +1,7 @@
-package timus_1785;
+package Timus.timus1785;
 
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 

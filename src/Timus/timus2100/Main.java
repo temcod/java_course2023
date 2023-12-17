@@ -1,4 +1,4 @@
-package timus_2100;
+package Timus.timus2100;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

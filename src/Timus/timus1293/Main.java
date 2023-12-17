@@ -1,4 +1,4 @@
-package timus_1293;
+package Timus.timus1293;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
