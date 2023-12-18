@@ -11,8 +11,8 @@ public class Main2 {
     }
     public void result () {
 
-        int a = ch1;
-        int b = ch2;
+        char a = ch1;
+        char b = ch2;
         if (ch1>ch2) {
             a = ch2;
             b = ch1;
