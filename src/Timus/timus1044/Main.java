@@ -6,7 +6,6 @@ public class Main {
     private BufferedReader bufferedReader;
     private StreamTokenizer in;
     private PrintWriter out;
-
     public Main() {
         this(System.in, System.out);
     }
@@ -15,11 +14,9 @@ public class Main {
         in = new StreamTokenizer(bufferedReader);
         out = new PrintWriter(new OutputStreamWriter(outputStream));
     }
-
     public static void main(String[] args) throws IOException {
         new Main().run();
     }
-
     public void run() {
         try {
             solve();
@@ -28,7 +25,6 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
-
     private double readNumber() throws IOException {
         int nextToken = in.nextToken();
         if (nextToken == StreamTokenizer.TT_NUMBER) {
@@ -36,7 +32,6 @@ public class Main {
         }
         throw new IllegalStateException("Number expected. Found: " + nextToken);
     }
-
     private String readWord() throws IOException {
         int nextToken = in.nextToken();
         if (nextToken == StreamTokenizer.TT_WORD) {
@@ -44,14 +39,10 @@ public class Main {
         }
         throw new IllegalStateException("Word expected. Found: " + nextToken);
     }
-
-    //TODO global variables
-
     private void solve() throws Exception {
         int n = (int) readNumber();
         out.println(get(n));
     }
-
     private long get(int n) {
         switch (n) {
             case 2:
