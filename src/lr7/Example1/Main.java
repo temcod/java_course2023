@@ -2,17 +2,13 @@ package lr7.Example1;
 
 public class Main {
     public static void main(String[] args) {
-        superClassTest superClassObject = new superClassTest("передал в конструктор суперкласса");
-        String className = superClassObject.toString();
-        System.out.println(className);
+        SuperClass obj1 = new SuperClass("Hello");
+        SubClass obj2 = new SubClass("World");
+        SubClass obj3 = new SubClass("Java", "Programming");
 
-        subClassTest subClassObject1 = new subClassTest("передал в конструктор подкласса");
-        String subClassName = subClassObject1.toString();
-        System.out.println(subClassName);
-
-        subClassTest subClassObject2 = new subClassTest("передал в конструктор подкласса", "где два параметра");
-        String subClassName2 = subClassObject2.toString();
-        System.out.println(subClassName2);
-
+        System.out.println(obj1);
+        System.out.println(obj2);
+        System.out.println(obj3);
     }
+
 }
